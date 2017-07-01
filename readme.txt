@@ -1,0 +1,1 @@
+Machine Learning is used to solve the problems. This might help to people who are getting started with ML. Deep learning is also used to solve some of the problems here using Tensorflow

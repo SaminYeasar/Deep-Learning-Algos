@@ -1,0 +1,1 @@
+We used "deep learning" and "tensorflow" to solve for MNIST classification
