@@ -1,8 +1,10 @@
 L layer fully connected feed forward neural network
-- build from scratch 
-- used numpy 
-- solved MNIST
-Structure:
+        - build from scratch 
+        - used numpy 
+        - solved MNIST
+*******************************************************
+                   Structure:
+*******************************************************
 * Parameter Initialization
 * Helper function
            - sigmoid , derivative sigmoid
