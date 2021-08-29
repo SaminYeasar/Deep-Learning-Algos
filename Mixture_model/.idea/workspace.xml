@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6c022dc6-1739-4b8b-9716-64892776cfa3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/.idea/BEAR.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/.idea/BEAR.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/.idea/libraries/R_User_Library.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/DDPG.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/DDPG.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/MUJOCO_LOG.TXT" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/MUJOCO_LOG.TXT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/TD3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/TD3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/Untitled.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/advertorch/VERSION" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/advertorch/VERSION" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/advertorch/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/advertorch/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/advertorch/attacks/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/advertorch/attacks/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/advertorch/attacks/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/advertorch/attacks/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/advertorch/attacks/carlini_wagner.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/advertorch/attacks/carlini_wagner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/advertorch/attacks/decoupled_direction_norm.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/advertorch/attacks/decoupled_direction_norm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/advertorch/attacks/ead.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/advertorch/attacks/ead.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/advertorch/attacks/fast_adaptive_boundary.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/advertorch/attacks/fast_adaptive_boundary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/advertorch/attacks/iterative_projected_gradient.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/advertorch/attacks/iterative_projected_gradient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/advertorch/attacks/jsma.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/advertorch/attacks/jsma.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/advertorch/attacks/lbfgs.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/advertorch/attacks/lbfgs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/advertorch/attacks/localsearch.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/advertorch/attacks/localsearch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/advertorch/attacks/one_step_gradient.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/advertorch/attacks/one_step_gradient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/advertorch/attacks/spatial.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/advertorch/attacks/spatial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/advertorch/attacks/spsa.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/advertorch/attacks/spsa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/advertorch/attacks/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/advertorch/attacks/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/advertorch/bpda.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/advertorch/bpda.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/advertorch/context.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/advertorch/context.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/advertorch/defenses/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/advertorch/defenses/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/advertorch/defenses/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/advertorch/defenses/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/advertorch/defenses/bitsqueezing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/advertorch/defenses/bitsqueezing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/advertorch/defenses/jpeg.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/advertorch/defenses/jpeg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/advertorch/defenses/smoothing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/advertorch/defenses/smoothing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/advertorch/functional.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/advertorch/functional.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/advertorch/loss.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/advertorch/loss.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/advertorch/test_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/advertorch/test_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/advertorch/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/advertorch/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/algos.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/algos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/cc_cedar.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/cc_cedar.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/cc_temp.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/cc_temp.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/d4rl/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/d4rl/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/d4rl/gym_mujoco/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/d4rl/gym_mujoco/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/d4rl/gym_mujoco/gym_envs.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/d4rl/gym_mujoco/gym_envs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/d4rl/gym_mujoco/wrappers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/d4rl/hand_manipulation_suite/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/d4rl/hand_manipulation_suite/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/d4rl/infos.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/d4rl/infos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/d4rl/offline_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/d4rl/offline_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/point_mass.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/point_mass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/core/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/core/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/core/batch_rl_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/core/batch_rl_algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/core/eval_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/core/eval_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/core/logging.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/core/logging.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/core/loss.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/core/loss.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/core/online_rl_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/core/online_rl_algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/core/rl_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/core/rl_algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/core/serializable.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/core/serializable.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/core/tabulate.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/core/tabulate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/core/trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/core/trainer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/data_management/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/data_management/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/data_management/env_replay_buffer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/data_management/env_replay_buffer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/data_management/normalizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/data_management/normalizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/data_management/obs_dict_replay_buffer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/data_management/obs_dict_replay_buffer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/data_management/online_vae_replay_buffer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/data_management/online_vae_replay_buffer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/data_management/path_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/data_management/path_builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/data_management/replay_buffer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/data_management/replay_buffer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/data_management/shared_obs_dict_replay_buffer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/data_management/shared_obs_dict_replay_buffer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/data_management/simple_replay_buffer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/data_management/simple_replay_buffer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/data_management/split_buffer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/data_management/split_buffer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/demos/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/demos/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/demos/collect_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/demos/collect_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/demos/play_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/demos/play_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/demos/source/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/demos/source/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/demos/source/demo_source.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/demos/source/demo_source.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/demos/source/dict_to_mdp_path_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/demos/source/dict_to_mdp_path_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/demos/source/hand_demo_source.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/demos/source/hand_demo_source.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/demos/source/hdf5_path_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/demos/source/hdf5_path_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/demos/source/mdp_path_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/demos/source/mdp_path_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/demos/source/path_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/demos/source/path_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/demos/spacemouse/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/demos/spacemouse/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/demos/spacemouse/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/demos/spacemouse/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/demos/spacemouse/input_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/demos/spacemouse/input_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/demos/spacemouse/input_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/demos/spacemouse/input_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/envs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/envs/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/envs/ant.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/envs/ant.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/envs/assets/low_gear_ratio_ant.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/envs/assets/low_gear_ratio_ant.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/envs/assets/reacher_7dof.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/envs/assets/reacher_7dof.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/envs/env_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/envs/env_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/envs/goal_generation/pickup_goal_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/envs/goal_generation/pickup_goal_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/envs/make_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/envs/make_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/envs/mujoco_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/envs/mujoco_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/envs/mujoco_image_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/envs/mujoco_image_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/envs/proxy_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/envs/proxy_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/envs/vae_wrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/envs/vae_wrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/envs/wrappers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/envs/wrappers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/envs/wrappers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/envs/wrappers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/envs/wrappers/discretize_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/envs/wrappers/discretize_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/envs/wrappers/history_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/envs/wrappers/history_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/envs/wrappers/image_mujoco_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/envs/wrappers/image_mujoco_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/envs/wrappers/image_mujoco_env_with_obs.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/envs/wrappers/image_mujoco_env_with_obs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/envs/wrappers/normalized_box_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/envs/wrappers/normalized_box_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/envs/wrappers/reward_wrapper_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/envs/wrappers/reward_wrapper_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/envs/wrappers/stack_observation_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/envs/wrappers/stack_observation_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/exploration_strategies/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/exploration_strategies/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/exploration_strategies/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/exploration_strategies/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/exploration_strategies/epsilon_greedy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/exploration_strategies/epsilon_greedy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/exploration_strategies/gaussian_and_epsilon_strategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/exploration_strategies/gaussian_and_epsilon_strategy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/exploration_strategies/gaussian_strategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/exploration_strategies/gaussian_strategy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/exploration_strategies/ou_strategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/exploration_strategies/ou_strategy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/launchers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/launchers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/launchers/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/launchers/conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/launchers/experiments/awac/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/launchers/experiments/awac/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/launchers/experiments/awac/awac_encoder_rl.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/launchers/experiments/awac/awac_encoder_rl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/launchers/experiments/awac/awac_gcrl.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/launchers/experiments/awac/awac_gcrl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/launchers/experiments/awac/awac_rl.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/launchers/experiments/awac/awac_rl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/launchers/launcher_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/launchers/launcher_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/launchers/skewfit_experiments.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/launchers/skewfit_experiments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/policies/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/policies/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/policies/argmax.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/policies/argmax.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/policies/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/policies/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/policies/simple.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/policies/simple.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/pythonplusplus.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/pythonplusplus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/samplers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/samplers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/samplers/data_collector/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/samplers/data_collector/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/samplers/data_collector/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/samplers/data_collector/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/samplers/data_collector/contextual_path_collector.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/samplers/data_collector/contextual_path_collector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/samplers/data_collector/joint_path_collector.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/samplers/data_collector/joint_path_collector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/samplers/data_collector/path_collector.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/samplers/data_collector/path_collector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/samplers/data_collector/step_collector.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/samplers/data_collector/step_collector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/samplers/data_collector/vae_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/samplers/data_collector/vae_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/samplers/in_place.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/samplers/in_place.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/samplers/rollout_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/samplers/rollout_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/samplers/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/samplers/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/conv_networks.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/conv_networks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/core.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/data_management/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/data_management/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/data_management/normalizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/data_management/normalizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/ddpg/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/ddpg/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/ddpg/ddpg.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/ddpg/ddpg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/distributions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/distributions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/dqn/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/dqn/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/dqn/double_dqn.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/dqn/double_dqn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/dqn/dqn.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/dqn/dqn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/her/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/her/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/her/her.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/her/her.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/lvm/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/lvm/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/lvm/bear_vae.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/lvm/bear_vae.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/lvm/latent_variable_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/lvm/latent_variable_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/modules.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/modules.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/networks/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/networks/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/networks/basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/networks/basic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/networks/cnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/networks/cnn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/networks/custom.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/networks/custom.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/networks/dcnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/networks/dcnn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/networks/feat_point_mlp.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/networks/feat_point_mlp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/networks/image_state.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/networks/image_state.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/networks/linear_transform.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/networks/linear_transform.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/networks/mlp.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/networks/mlp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/networks/normalization.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/networks/normalization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/networks/pretrained_cnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/networks/pretrained_cnn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/networks/stochastic/distribution_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/networks/stochastic/distribution_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/networks/two_headed_mlp.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/networks/two_headed_mlp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/pytorch_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/pytorch_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/sac/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/sac/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/sac/awac_trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/sac/awac_trainer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/sac/policies/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/sac/policies/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/sac/policies/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/sac/policies/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/sac/policies/gaussian_policy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/sac/policies/gaussian_policy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/sac/policies/lvm_policy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/sac/policies/lvm_policy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/sac/policies/policy_from_q.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/sac/policies/policy_from_q.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/sac/sac.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/sac/sac.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/skewfit/online_vae_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/skewfit/online_vae_algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/skewfit/video_gen.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/skewfit/video_gen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/td3/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/td3/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/td3/td3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/td3/td3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/torch_rl_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/torch_rl_algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/vae/conv_vae.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/vae/conv_vae.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/vae/vae_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/vae/vae_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/vae/vae_schedules.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/vae/vae_schedules.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/vae/vae_trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/torch/vae/vae_trainer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/util/hyperparameter.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/util/hyperparameter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/util/io.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/util/io.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/util/ml_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/util/ml_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/util/video.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/util/video.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/rlkit/visualization/plot_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/rlkit/visualization/plot_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adversarial_attack/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Adversarial_attack/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCQ/.idea/BCQ.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../BCQ/.idea/BCQ.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCQ/.idea/libraries/R_User_Library.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BCQ/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCQ/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BCQ/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCQ/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BCQ/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCQ/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BCQ/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCQ/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BCQ/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCQ/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../BCQ/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCQ/cc_continuous_Double_Descent.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../BCQ/cc_continuous_Double_Descent.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCQ/continuous_BCQ/BCQ.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BCQ/continuous_BCQ/BCQ.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCQ/continuous_BCQ/DDPG.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BCQ/continuous_BCQ/DDPG.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCQ/continuous_BCQ/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../BCQ/continuous_BCQ/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCQ/continuous_BCQ/keras_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BCQ/continuous_BCQ/keras_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCQ/continuous_BCQ/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BCQ/continuous_BCQ/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCQ/continuous_BCQ/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BCQ/continuous_BCQ/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCQ/discrete_BCQ/DQN.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BCQ/discrete_BCQ/DQN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCQ/discrete_BCQ/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../BCQ/discrete_BCQ/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCQ/discrete_BCQ/discrete_BCQ.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BCQ/discrete_BCQ/discrete_BCQ.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCQ/discrete_BCQ/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BCQ/discrete_BCQ/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCQ/discrete_BCQ/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BCQ/discrete_BCQ/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/.idea/BEAR.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/.idea/BEAR.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/.idea/libraries/R_User_Library.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/DDPG.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/DDPG.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/MUJOCO_LOG.TXT" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/MUJOCO_LOG.TXT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/TD3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/TD3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/Untitled.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/advertorch/VERSION" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/advertorch/VERSION" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/advertorch/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/advertorch/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/advertorch/attacks/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/advertorch/attacks/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/advertorch/attacks/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/advertorch/attacks/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/advertorch/attacks/carlini_wagner.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/advertorch/attacks/carlini_wagner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/advertorch/attacks/decoupled_direction_norm.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/advertorch/attacks/decoupled_direction_norm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/advertorch/attacks/ead.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/advertorch/attacks/ead.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/advertorch/attacks/fast_adaptive_boundary.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/advertorch/attacks/fast_adaptive_boundary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/advertorch/attacks/iterative_projected_gradient.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/advertorch/attacks/iterative_projected_gradient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/advertorch/attacks/jsma.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/advertorch/attacks/jsma.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/advertorch/attacks/lbfgs.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/advertorch/attacks/lbfgs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/advertorch/attacks/localsearch.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/advertorch/attacks/localsearch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/advertorch/attacks/one_step_gradient.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/advertorch/attacks/one_step_gradient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/advertorch/attacks/spatial.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/advertorch/attacks/spatial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/advertorch/attacks/spsa.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/advertorch/attacks/spsa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/advertorch/attacks/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/advertorch/attacks/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/advertorch/bpda.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/advertorch/bpda.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/advertorch/context.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/advertorch/context.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/advertorch/defenses/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/advertorch/defenses/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/advertorch/defenses/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/advertorch/defenses/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/advertorch/defenses/bitsqueezing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/advertorch/defenses/bitsqueezing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/advertorch/defenses/jpeg.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/advertorch/defenses/jpeg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/advertorch/defenses/smoothing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/advertorch/defenses/smoothing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/advertorch/functional.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/advertorch/functional.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/advertorch/loss.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/advertorch/loss.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/advertorch/test_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/advertorch/test_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/advertorch/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/advertorch/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/algos.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/algos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/carla/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/carla/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/carla/carla_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/carla/carla_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/carla/data_collection_agent_lane.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/carla/data_collection_agent_lane.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/carla/data_collection_town.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/carla/data_collection_town.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/carla/town_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/carla/town_agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/flow/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/flow/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/flow/bottleneck.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/flow/bottleneck.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/flow/merge.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/flow/merge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/flow/traffic_light_grid.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/flow/traffic_light_grid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/gym_minigrid/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/gym_minigrid/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/gym_minigrid/envs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/gym_minigrid/envs/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/gym_minigrid/envs/empty.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/gym_minigrid/envs/empty.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/gym_minigrid/envs/fourrooms.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/gym_minigrid/envs/fourrooms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/gym_minigrid/fourroom_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/gym_minigrid/fourroom_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/gym_minigrid/minigrid.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/gym_minigrid/minigrid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/gym_minigrid/register.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/gym_minigrid/register.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/gym_minigrid/rendering.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/gym_minigrid/rendering.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/gym_minigrid/roomgrid.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/gym_minigrid/roomgrid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/gym_minigrid/window.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/gym_minigrid/window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/gym_minigrid/wrappers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/gym_minigrid/wrappers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/gym_mujoco/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/gym_mujoco/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/gym_mujoco/gym_envs.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/gym_mujoco/gym_envs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/gym_mujoco/wrappers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/gym_mujoco/wrappers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/Adroit_hand.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/Adroit_hand.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/Adroit_hand_withOverlay.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/Adroit_hand_withOverlay.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/gallery/news.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/gallery/news.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/gallery/projects.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/gallery/projects.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/assets.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/assets.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/chain.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/chain.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/chain1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/chain1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/joint_position_actuation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/joint_position_actuation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/F1.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/F1.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/F2.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/F2.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/F3.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/F3.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/TH1_z.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/TH1_z.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/TH2_z.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/TH2_z.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/TH3_z.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/TH3_z.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/arm_base.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/arm_base.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/arm_trunk.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/arm_trunk.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/arm_trunk_asmbly.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/arm_trunk_asmbly.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/distal_ellipsoid.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/distal_ellipsoid.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/elbow_flex.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/elbow_flex.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/elbow_rotate_motor.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/elbow_rotate_motor.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/elbow_rotate_muscle.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/elbow_rotate_muscle.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/forearm_Cy_PlateAsmbly(muscle_cone).stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/forearm_Cy_PlateAsmbly(muscle_cone).stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/forearm_Cy_PlateAsmbly.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/forearm_Cy_PlateAsmbly.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/forearm_PlateAsmbly.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/forearm_PlateAsmbly.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/forearm_electric.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/forearm_electric.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/forearm_electric_cvx.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/forearm_electric_cvx.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/forearm_muscle.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/forearm_muscle.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/forearm_simple.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/forearm_simple.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/forearm_simple_cvx.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/forearm_simple_cvx.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/forearm_weight.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/forearm_weight.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/knuckle.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/knuckle.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/lfmetacarpal.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/lfmetacarpal.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/palm.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/palm.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/upper_arm.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/upper_arm.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/upper_arm_asmbl_shoulder.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/upper_arm_asmbl_shoulder.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/upper_arm_ass.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/upper_arm_ass.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/wrist.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/meshes/wrist.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/tendon_torque_actuation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/tendon_torque_actuation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/textures/darkwood.png" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/textures/darkwood.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/textures/dice.png" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/textures/dice.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/textures/foil.png" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/textures/foil.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/textures/marble.png" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/textures/marble.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/textures/silverRaw.png" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/textures/silverRaw.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/textures/skin.png" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/textures/skin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/textures/square.png" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/textures/square.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/textures/wood.png" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/textures/wood.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/textures/woodb.png" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/Adroit/resources/textures/woodb.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/assets/DAPG_Adroit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/assets/DAPG_Adroit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/assets/DAPG_assets.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/assets/DAPG_assets.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/assets/DAPG_door.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/assets/DAPG_door.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/assets/DAPG_hammer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/assets/DAPG_hammer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/assets/DAPG_pen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/assets/DAPG_pen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/assets/DAPG_relocate.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/assets/DAPG_relocate.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/assets/tasks.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/assets/tasks.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/door_v0.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/door_v0.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/hammer_v0.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/hammer_v0.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/pen_v0.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/pen_v0.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/relocate_v0.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/hand_manipulation_suite/relocate_v0.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/infos.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/infos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/.pylintrc" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/.pylintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/.style.yapf" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/.style.yapf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/base_robot.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/base_robot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/franka/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/franka/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/franka/assets/franka_kitchen_jntpos_act_ab.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/franka/assets/franka_kitchen_jntpos_act_ab.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/franka/kitchen_multitask_v0.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/franka/kitchen_multitask_v0.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/franka/robot/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/franka/robot/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/franka/robot/franka_config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/franka/robot/franka_config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/franka/robot/franka_robot.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/franka/robot/franka_robot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/mujoco_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/mujoco_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/robot_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/robot_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/simulation/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/simulation/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/simulation/module.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/simulation/module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/simulation/renderer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/simulation/renderer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/simulation/sim_robot.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/simulation/sim_robot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/utils/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/utils/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/utils/configurable.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/utils/configurable.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/utils/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/utils/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/utils/parse_demos.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/utils/parse_demos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/utils/quatmath.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_envs/utils/quatmath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/CONTRIBUTING.public.md" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/CONTRIBUTING.public.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/README.public.md" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/README.public.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/assets/backwall_asset.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/assets/backwall_asset.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/assets/backwall_chain.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/assets/backwall_chain.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/assets/counters_asset.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/assets/counters_asset.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/assets/counters_chain.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/assets/counters_chain.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/assets/hingecabinet_asset.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/assets/hingecabinet_asset.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/assets/hingecabinet_chain.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/assets/hingecabinet_chain.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/assets/kettle_asset.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/assets/kettle_asset.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/assets/kettle_chain.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/assets/kettle_chain.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/assets/microwave_asset.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/assets/microwave_asset.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/assets/microwave_chain.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/assets/microwave_chain.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/assets/oven_asset.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/assets/oven_asset.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/assets/oven_chain.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/assets/oven_chain.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/assets/slidecabinet_asset.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/assets/slidecabinet_asset.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/assets/slidecabinet_chain.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/assets/slidecabinet_chain.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/counters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/counters.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/hingecabinet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/hingecabinet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/kettle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/kettle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/kitchen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/kitchen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/burnerplate.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/burnerplate.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/burnerplate_mesh.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/burnerplate_mesh.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/cabinetbase.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/cabinetbase.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/cabinetdrawer.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/cabinetdrawer.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/cabinethandle.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/cabinethandle.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/countertop.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/countertop.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/faucet.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/faucet.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/handle2.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/handle2.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/hingecabinet.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/hingecabinet.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/hingedoor.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/hingedoor.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/hingehandle.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/hingehandle.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/hood.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/hood.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/kettle.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/kettle.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/kettlehandle.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/kettlehandle.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/knob.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/knob.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/lightswitch.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/lightswitch.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/lightswitchbase.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/lightswitchbase.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/micro.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/micro.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/microbutton.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/microbutton.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/microdoor.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/microdoor.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/microefeet.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/microefeet.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/microfeet.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/microfeet.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/microhandle.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/microhandle.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/microwindow.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/microwindow.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/oven.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/oven.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/ovenhandle.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/ovenhandle.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/oventop.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/oventop.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/ovenwindow.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/ovenwindow.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/slidecabinet.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/slidecabinet.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/slidedoor.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/slidedoor.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/stoverim.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/stoverim.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/tile.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/tile.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/wall.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/meshes/wall.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/microwave.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/microwave.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/oven.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/oven.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/slidecabinet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/slidecabinet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/textures/marble1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/textures/marble1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/textures/metal1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/textures/metal1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/textures/tile1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/textures/tile1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/textures/wood1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/kitchen/textures/wood1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/scenes/basic_scene.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/scenes/basic_scene.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/scenes/textures/white_marble_tile.png" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/scenes/textures/white_marble_tile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/scenes/textures/white_marble_tile2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/adept_models/scenes/textures/white_marble_tile2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/kitchen_envs.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/kitchen_envs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/assets/actuator0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/assets/actuator0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/assets/actuator1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/assets/actuator1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/assets/assets.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/assets/assets.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/assets/basic_scene.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/assets/basic_scene.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/assets/chain0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/assets/chain0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/assets/chain0_overlay.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/assets/chain0_overlay.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/assets/chain1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/assets/chain1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/assets/teleop_actuator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/assets/teleop_actuator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/bi-franka_panda.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/bi-franka_panda.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/franka_panda.png" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/franka_panda.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/franka_panda.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/franka_panda.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/franka_panda_teleop.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/franka_panda_teleop.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/meshes/collision/finger.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/meshes/collision/finger.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/meshes/collision/hand.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/meshes/collision/hand.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/meshes/collision/link0.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/meshes/collision/link0.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/meshes/collision/link1.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/meshes/collision/link1.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/meshes/collision/link2.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/meshes/collision/link2.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/meshes/collision/link3.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/meshes/collision/link3.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/meshes/collision/link4.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/meshes/collision/link4.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/meshes/collision/link5.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/meshes/collision/link5.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/meshes/collision/link6.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/meshes/collision/link6.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/meshes/collision/link7.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/meshes/collision/link7.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/meshes/visual/finger.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/meshes/visual/finger.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/meshes/visual/hand.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/meshes/visual/hand.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/meshes/visual/link0.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/meshes/visual/link0.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/meshes/visual/link1.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/meshes/visual/link1.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/meshes/visual/link2.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/meshes/visual/link2.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/meshes/visual/link3.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/meshes/visual/link3.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/meshes/visual/link4.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/meshes/visual/link4.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/meshes/visual/link5.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/meshes/visual/link5.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/meshes/visual/link6.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/meshes/visual/link6.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/meshes/visual/link7.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/kitchen/third_party/franka/meshes/visual/link7.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/locomotion/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/locomotion/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/locomotion/ant.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/locomotion/ant.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/locomotion/assets/ant.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/locomotion/assets/ant.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/locomotion/assets/point.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/locomotion/assets/point.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/locomotion/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/locomotion/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/locomotion/generate_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/locomotion/generate_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/locomotion/goal_reaching_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/locomotion/goal_reaching_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/locomotion/maze_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/locomotion/maze_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/locomotion/mujoco_goal_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/locomotion/mujoco_goal_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/locomotion/point.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/locomotion/point.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/locomotion/swimmer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/locomotion/swimmer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/locomotion/wrappers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/locomotion/wrappers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/offline_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/offline_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/ope.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/ope.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/pointmaze/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/pointmaze/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/pointmaze/dynamic_mjc.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/pointmaze/dynamic_mjc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/pointmaze/gridcraft/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/pointmaze/gridcraft/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/pointmaze/gridcraft/grid_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/pointmaze/gridcraft/grid_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/pointmaze/gridcraft/grid_spec.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/pointmaze/gridcraft/grid_spec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/pointmaze/gridcraft/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/pointmaze/gridcraft/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/pointmaze/gridcraft/wrappers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/pointmaze/gridcraft/wrappers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/pointmaze/maze_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/pointmaze/maze_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/pointmaze/q_iteration.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/pointmaze/q_iteration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/pointmaze/waypoint_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/pointmaze/waypoint_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/utils/dataset_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/utils/dataset_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/utils/quatmath.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/utils/quatmath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/d4rl/utils/visualize_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/d4rl/utils/visualize_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/data_hopper/algo=BCQ,batch_size=100,env=halfcheetah-expert-v0,gamma=0.99,seed=0/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/data_hopper/algo=BCQ,batch_size=100,env=halfcheetah-expert-v0,gamma=0.99,seed=0/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/data_hopper/algo=BCQ,batch_size=100,env=halfcheetah-expert-v0,gamma=0.99,seed=0/progress.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/data_hopper/algo=BCQ,batch_size=100,env=halfcheetah-expert-v0,gamma=0.99,seed=0/progress.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/data_hopper/algo=BCQ,batch_size=100,env=halfcheetah-expert-v0,gamma=0.99,seed=0/variant.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/data_hopper/algo=BCQ,batch_size=100,env=halfcheetah-expert-v0,gamma=0.99,seed=0/variant.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/data_hopper/algo=BCQ,batch_size=100,env=hopper-medium-v0,gamma=0.99,seed=0/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/data_hopper/algo=BCQ,batch_size=100,env=hopper-medium-v0,gamma=0.99,seed=0/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/data_hopper/algo=BCQ,batch_size=100,env=hopper-medium-v0,gamma=0.99,seed=0/progress.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/data_hopper/algo=BCQ,batch_size=100,env=hopper-medium-v0,gamma=0.99,seed=0/progress.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/data_hopper/algo=BCQ,batch_size=100,env=hopper-medium-v0,gamma=0.99,seed=0/variant.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/data_hopper/algo=BCQ,batch_size=100,env=hopper-medium-v0,gamma=0.99,seed=0/variant.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/data_hopper/algo=BEAR,batch_size=100,env=hopper-medium-v0,gamma=0.99,seed=0/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/data_hopper/algo=BEAR,batch_size=100,env=hopper-medium-v0,gamma=0.99,seed=0/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/data_hopper/algo=BEAR,batch_size=100,env=hopper-medium-v0,gamma=0.99,seed=0/progress.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/data_hopper/algo=BEAR,batch_size=100,env=hopper-medium-v0,gamma=0.99,seed=0/progress.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/data_hopper/algo=BEAR,batch_size=100,env=hopper-medium-v0,gamma=0.99,seed=0/variant.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/data_hopper/algo=BEAR,batch_size=100,env=hopper-medium-v0,gamma=0.99,seed=0/variant.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/data_hopper/algo=BEAR,env=hopper-medium-v0,seed=0/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/data_hopper/algo=BEAR,env=hopper-medium-v0,seed=0/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/data_hopper/algo=BEAR,env=hopper-medium-v0,seed=0/progress.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/data_hopper/algo=BEAR,env=hopper-medium-v0,seed=0/progress.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/data_hopper/algo=BEAR,env=hopper-medium-v0,seed=0/variant.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/data_hopper/algo=BEAR,env=hopper-medium-v0,seed=0/variant.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/data_hopper/algo=BEAR_VR,env=hopper-medium-v0,nu_trainer_type=AlgeaDICE_update,reward_lambda=0.1,seed=0,use_w=True,y_compute=nu/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/data_hopper/algo=BEAR_VR,env=hopper-medium-v0,nu_trainer_type=AlgeaDICE_update,reward_lambda=0.1,seed=0,use_w=True,y_compute=nu/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/data_hopper/algo=BEAR_VR,env=hopper-medium-v0,nu_trainer_type=AlgeaDICE_update,reward_lambda=0.1,seed=0,use_w=True,y_compute=nu/progress.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/data_hopper/algo=BEAR_VR,env=hopper-medium-v0,nu_trainer_type=AlgeaDICE_update,reward_lambda=0.1,seed=0,use_w=True,y_compute=nu/progress.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/data_hopper/algo=BEAR_VR,env=hopper-medium-v0,nu_trainer_type=AlgeaDICE_update,reward_lambda=0.1,seed=0,use_w=True,y_compute=nu/variant.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/data_hopper/algo=BEAR_VR,env=hopper-medium-v0,nu_trainer_type=AlgeaDICE_update,reward_lambda=0.1,seed=0,use_w=True,y_compute=nu/variant.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/data_hopper/algo=BEAR_VR,env=hopper-medium-v0,nu_trainer_type=AlgeaDICE_update,reward_lambda=0.1,seed=0,use_w=True/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/data_hopper/algo=BEAR_VR,env=hopper-medium-v0,nu_trainer_type=AlgeaDICE_update,reward_lambda=0.1,seed=0,use_w=True/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/data_hopper/algo=BEAR_VR,env=hopper-medium-v0,nu_trainer_type=AlgeaDICE_update,reward_lambda=0.1,seed=0,use_w=True/progress.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/data_hopper/algo=BEAR_VR,env=hopper-medium-v0,nu_trainer_type=AlgeaDICE_update,reward_lambda=0.1,seed=0,use_w=True/progress.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/data_hopper/algo=BEAR_VR,env=hopper-medium-v0,nu_trainer_type=AlgeaDICE_update,reward_lambda=0.1,seed=0,use_w=True/variant.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/data_hopper/algo=BEAR_VR,env=hopper-medium-v0,nu_trainer_type=AlgeaDICE_update,reward_lambda=0.1,seed=0,use_w=True/variant.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/point_mass.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/point_mass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/core/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/core/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/core/batch_rl_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/core/batch_rl_algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/core/eval_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/core/eval_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/core/logging.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/core/logging.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/core/loss.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/core/loss.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/core/online_rl_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/core/online_rl_algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/core/rl_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/core/rl_algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/core/serializable.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/core/serializable.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/core/tabulate.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/core/tabulate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/core/trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/core/trainer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/data_management/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/data_management/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/data_management/env_replay_buffer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/data_management/env_replay_buffer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/data_management/normalizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/data_management/normalizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/data_management/obs_dict_replay_buffer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/data_management/obs_dict_replay_buffer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/data_management/online_vae_replay_buffer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/data_management/online_vae_replay_buffer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/data_management/path_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/data_management/path_builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/data_management/replay_buffer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/data_management/replay_buffer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/data_management/shared_obs_dict_replay_buffer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/data_management/shared_obs_dict_replay_buffer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/data_management/simple_replay_buffer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/data_management/simple_replay_buffer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/data_management/split_buffer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/data_management/split_buffer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/demos/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/demos/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/demos/collect_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/demos/collect_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/demos/play_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/demos/play_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/demos/source/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/demos/source/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/demos/source/demo_source.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/demos/source/demo_source.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/demos/source/dict_to_mdp_path_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/demos/source/dict_to_mdp_path_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/demos/source/hand_demo_source.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/demos/source/hand_demo_source.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/demos/source/hdf5_path_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/demos/source/hdf5_path_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/demos/source/mdp_path_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/demos/source/mdp_path_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/demos/source/path_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/demos/source/path_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/demos/spacemouse/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/demos/spacemouse/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/demos/spacemouse/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/demos/spacemouse/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/demos/spacemouse/input_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/demos/spacemouse/input_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/demos/spacemouse/input_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/demos/spacemouse/input_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/envs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/envs/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/envs/ant.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/envs/ant.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/envs/assets/low_gear_ratio_ant.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/envs/assets/low_gear_ratio_ant.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/envs/assets/reacher_7dof.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/envs/assets/reacher_7dof.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/envs/env_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/envs/env_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/envs/goal_generation/pickup_goal_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/envs/goal_generation/pickup_goal_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/envs/make_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/envs/make_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/envs/mujoco_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/envs/mujoco_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/envs/mujoco_image_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/envs/mujoco_image_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/envs/proxy_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/envs/proxy_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/envs/vae_wrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/envs/vae_wrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/envs/wrappers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/envs/wrappers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/envs/wrappers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/envs/wrappers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/envs/wrappers/discretize_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/envs/wrappers/discretize_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/envs/wrappers/history_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/envs/wrappers/history_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/envs/wrappers/image_mujoco_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/envs/wrappers/image_mujoco_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/envs/wrappers/image_mujoco_env_with_obs.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/envs/wrappers/image_mujoco_env_with_obs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/envs/wrappers/normalized_box_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/envs/wrappers/normalized_box_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/envs/wrappers/reward_wrapper_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/envs/wrappers/reward_wrapper_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/envs/wrappers/stack_observation_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/envs/wrappers/stack_observation_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/exploration_strategies/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/exploration_strategies/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/exploration_strategies/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/exploration_strategies/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/exploration_strategies/epsilon_greedy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/exploration_strategies/epsilon_greedy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/exploration_strategies/gaussian_and_epsilon_strategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/exploration_strategies/gaussian_and_epsilon_strategy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/exploration_strategies/gaussian_strategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/exploration_strategies/gaussian_strategy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/exploration_strategies/ou_strategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/exploration_strategies/ou_strategy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/launchers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/launchers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/launchers/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/launchers/conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/launchers/experiments/awac/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/launchers/experiments/awac/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/launchers/experiments/awac/awac_encoder_rl.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/launchers/experiments/awac/awac_encoder_rl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/launchers/experiments/awac/awac_gcrl.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/launchers/experiments/awac/awac_gcrl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/launchers/experiments/awac/awac_rl.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/launchers/experiments/awac/awac_rl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/launchers/launcher_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/launchers/launcher_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/launchers/skewfit_experiments.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/launchers/skewfit_experiments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/policies/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/policies/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/policies/argmax.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/policies/argmax.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/policies/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/policies/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/policies/simple.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/policies/simple.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/pythonplusplus.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/pythonplusplus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/samplers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/samplers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/samplers/data_collector/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/samplers/data_collector/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/samplers/data_collector/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/samplers/data_collector/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/samplers/data_collector/contextual_path_collector.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/samplers/data_collector/contextual_path_collector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/samplers/data_collector/joint_path_collector.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/samplers/data_collector/joint_path_collector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/samplers/data_collector/path_collector.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/samplers/data_collector/path_collector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/samplers/data_collector/step_collector.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/samplers/data_collector/step_collector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/samplers/data_collector/vae_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/samplers/data_collector/vae_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/samplers/in_place.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/samplers/in_place.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/samplers/rollout_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/samplers/rollout_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/samplers/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/samplers/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/conv_networks.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/conv_networks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/core.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/data_management/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/data_management/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/data_management/normalizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/data_management/normalizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/ddpg/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/ddpg/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/ddpg/ddpg.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/ddpg/ddpg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/distributions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/distributions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/dqn/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/dqn/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/dqn/double_dqn.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/dqn/double_dqn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/dqn/dqn.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/dqn/dqn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/her/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/her/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/her/her.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/her/her.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/lvm/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/lvm/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/lvm/bear_vae.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/lvm/bear_vae.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/lvm/latent_variable_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/lvm/latent_variable_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/modules.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/modules.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/networks/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/networks/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/networks/basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/networks/basic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/networks/cnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/networks/cnn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/networks/custom.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/networks/custom.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/networks/dcnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/networks/dcnn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/networks/feat_point_mlp.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/networks/feat_point_mlp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/networks/image_state.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/networks/image_state.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/networks/linear_transform.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/networks/linear_transform.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/networks/mlp.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/networks/mlp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/networks/normalization.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/networks/normalization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/networks/pretrained_cnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/networks/pretrained_cnn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/networks/stochastic/distribution_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/networks/stochastic/distribution_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/networks/two_headed_mlp.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/networks/two_headed_mlp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/pytorch_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/pytorch_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/sac/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/sac/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/sac/awac_trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/sac/awac_trainer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/sac/policies/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/sac/policies/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/sac/policies/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/sac/policies/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/sac/policies/gaussian_policy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/sac/policies/gaussian_policy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/sac/policies/lvm_policy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/sac/policies/lvm_policy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/sac/policies/policy_from_q.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/sac/policies/policy_from_q.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/sac/sac.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/sac/sac.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/skewfit/online_vae_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/skewfit/online_vae_algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/skewfit/video_gen.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/skewfit/video_gen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/td3/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/td3/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/td3/td3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/td3/td3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/torch_rl_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/torch_rl_algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/vae/conv_vae.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/vae/conv_vae.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/vae/vae_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/vae/vae_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/vae/vae_schedules.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/vae/vae_schedules.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/torch/vae/vae_trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/torch/vae/vae_trainer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/util/hyperparameter.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/util/hyperparameter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/util/io.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/util/io.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/util/ml_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/util/ml_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/util/video.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/util/video.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/rlkit/visualization/plot_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/rlkit/visualization/plot_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BEAR/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BEAR/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offlineRL_overfitting/.idea/libraries/R_User_Library.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../offlineRL_overfitting/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offlineRL_overfitting/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../offlineRL_overfitting/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offlineRL_overfitting/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../offlineRL_overfitting/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offlineRL_overfitting/.idea/offlineRL_overfitting.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../offlineRL_overfitting/.idea/offlineRL_overfitting.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offlineRL_overfitting/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../offlineRL_overfitting/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offlineRL_overfitting/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../offlineRL_overfitting/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/._offlineRL_overfitting" beforeDir="false" afterPath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/._offlineRL_overfitting" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/._BCQ.py" beforeDir="false" afterPath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/._BCQ.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/._BEAR.py" beforeDir="false" afterPath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/._BEAR.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/._DDPG.py" beforeDir="false" afterPath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/._DDPG.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/._main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/._main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/._sac" beforeDir="false" afterPath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/._sac" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/._test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/._test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/._utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/._utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/sac/._ACTIVATE_ENV" beforeDir="false" afterPath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/sac/._ACTIVATE_ENV" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/sac/._LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/sac/._LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/sac/._README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/sac/._README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/sac/.___pycache__" beforeDir="false" afterPath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/sac/.___pycache__" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/sac/._main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/sac/._main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/sac/._model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/sac/._model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/sac/._replay_memory.py" beforeDir="false" afterPath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/sac/._replay_memory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/sac/._runs" beforeDir="false" afterPath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/sac/._runs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/sac/._sac.py" beforeDir="false" afterPath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/sac/._sac.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/sac/._utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/sac/._utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/sac/runs/._2020-05-23_13-35-30_SAC_HalfCheetah-v2_Gaussian_autotune" beforeDir="false" afterPath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/sac/runs/._2020-05-23_13-35-30_SAC_HalfCheetah-v2_Gaussian_autotune" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/sac/runs/._2020-05-23_13-36-41_SAC_HalfCheetah-v2_Gaussian_autotune" beforeDir="false" afterPath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/sac/runs/._2020-05-23_13-36-41_SAC_HalfCheetah-v2_Gaussian_autotune" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/sac/runs/2020-05-23_13-35-30_SAC_HalfCheetah-v2_Gaussian_autotune/._events.out.tfevents.1590255330.gpu059" beforeDir="false" afterPath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/sac/runs/2020-05-23_13-35-30_SAC_HalfCheetah-v2_Gaussian_autotune/._events.out.tfevents.1590255330.gpu059" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/sac/runs/2020-05-23_13-36-41_SAC_HalfCheetah-v2_Gaussian_autotune/._events.out.tfevents.1590255401.gpu059" beforeDir="false" afterPath="$PROJECT_DIR$/../offlineRL_overfitting/__MACOSX/offlineRL_overfitting/sac/runs/2020-05-23_13-36-41_SAC_HalfCheetah-v2_Gaussian_autotune/._events.out.tfevents.1590255401.gpu059" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1817846069">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="1053" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="1053" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="457">
+              <caret line="270" column="36" lean-forward="true" selection-start-line="270" selection-start-column="36" selection-end-line="270" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="64" column="14" lean-forward="true" selection-start-line="64" selection-start-column="14" selection-end-line="64" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>softmax_temperature</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/mdn.py" />
+        <option value="$PROJECT_DIR$/mdn_mod.py" />
+        <option value="$PROJECT_DIR$/model.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="25" />
+    <option name="width" value="1920" />
+    <option name="height" value="1175" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Mixture_model" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mixture_model" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/main.py" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.Unnamed">
+    <configuration name="Unnamed" type="JupiterNotebook" factoryName="Jupyter Notebook">
+      <module name="Mixture_model" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/environments/py36_baseline/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="additionalOptions" value="" />
+      <option name="ipnbHost" value="127.0.0.1" />
+      <option name="ipnbPort" value="8888" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python">
+      <module name="Mixture_model" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/environments/py36_baseline/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Jupyter Notebook.Unnamed" />
+      <item itemvalue="Python.Unnamed" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c022dc6-1739-4b8b-9716-64892776cfa3" name="Default Changelist" comment="" />
+      <created>1630190978000</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1630190978000</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="25" width="1920" height="1175" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14549288" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3291866" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.23253588" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>model.__train()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>model</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>model.model(torch.tensor(data))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>model(torch.tensor(data))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>model.M</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mdn_mod.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="13" selection-end-line="50" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mdn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="12" selection-end-line="50" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="270" column="36" lean-forward="true" selection-start-line="270" selection-start-column="36" selection-end-line="270" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="64" column="14" lean-forward="true" selection-start-line="64" selection-start-column="14" selection-end-line="64" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
